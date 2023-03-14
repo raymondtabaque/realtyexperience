@@ -5,6 +5,9 @@
 * {
     font-family: Poppins;
 }
+body{
+    overflow-x: hidden;
+    }
 
 @font-face {
     font-family: 'Poppins';
@@ -36,6 +39,7 @@ a {
     background-color: #000080;
     height: 4rem;
     box-shadow: .125rem .125rem .1875rem black;
+    overflow: hidden;
 }
 
 .navigation li {
