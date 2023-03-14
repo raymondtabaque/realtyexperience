@@ -227,10 +227,10 @@ a {
 
 .footer {
     display: inline-grid;
-    height: 15rem;
+    height: 20rem;
     width: 100%;
     background-color: #000080;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .contact {
@@ -241,7 +241,11 @@ a {
     width: 50%;
 }
 
-.contact, .socialmedia {
+.created {
+    width: 50%;
+}
+
+.contact, .socialmedia, .created {
     color: white;
     padding: 0 .5rem;
     line-height: 1.5;
@@ -331,19 +335,27 @@ a {
     }
 
     .contact h4 {
-        font-size: .8rem;
+        font-size: .6rem;
     }
 
     .contact li {
-        font-size: .6rem;
+        font-size: .5rem;
     }
 
     .socialmedia h4 {
-        font-size: .8rem;
+        font-size: .6rem;
     }
 
     .socialmedia li {
+        font-size: .5rem;
+    }
+
+    .created h4 {
         font-size: .6rem;
+    }
+
+    .created li {
+        font-size: .5rem;
     }
 
 }
