@@ -170,7 +170,7 @@ a {
     flex-direction: column;
     background-color: black;
     align-items: center;
-    height: 40rem;
+    height: auto;
 }
 
 .teamtitle {
@@ -266,18 +266,38 @@ a {
 
 
 @media only screen and (max-width: 780px) {
+
+    #title {
+        font-size: 1.2rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    /*Navigation Bar */
+
+    nav {
+        width: 89%;
+        height: auto;
+    }
+
     .navigation ul {
         display: inline-flex;
-        justify-content: left;
+        justify-content: center;
     }
 
     .navigation li {
         padding: .1rem 1rem;
-        font-size: .8rem;
+        font-size: .7rem;
+        width: 100%;
     }
+
+    /* Banner & Title */
 
     .dream {
         font-size: .955rem;
+        text-align: center;
     }
 
     .book {
@@ -302,6 +322,8 @@ a {
         font-size: 1.5rem;
     }
 
+    /* Property List */
+
     .propertylist {
         display: block;
         width: 100%;
@@ -309,7 +331,7 @@ a {
     }
 
     .midbanner {
-        height: 85rem;
+        height: 87.7rem;
     }
 
     .teamtitle h4 {
@@ -322,15 +344,28 @@ a {
         justify-content: space-around;
         align-items: center;
         height: auto;
+        max-width: 100%;
+    }
+
+    /* Team Members */
+    
+    .lowbanner {
+        width: 100%;
+        height: auto;
+    }
+
+    .memberbox {
         width: 100%;
     }
 
-    .lowbanner {
-        height: 88rem;
-    }
+    /* Footer */
 
     .footer {
         height: 8rem;
+        display: inline-grid;
+        height: auto;
+        width: 100%;
+        grid-template: repeat(3, 1fr) / 1fr;
 
     }
 
